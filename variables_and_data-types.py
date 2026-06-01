@@ -10,3 +10,5 @@ print(age)
 print(annual_salary)
 print(is_working)
 print(has_completed_masters)
+
+# a variables value can be changes at the moment of assigning it. Which means it doesnt hold any types.
