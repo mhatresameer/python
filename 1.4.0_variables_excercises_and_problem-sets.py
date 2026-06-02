@@ -21,3 +21,9 @@
 """ Excercise 14: Variables Seconds (Time) Conversion (1.4.14) """
 """ Excercise 12: Variables Simple Interest (1.4.15) """
 
+# Level 5: Mini Interview Challenge
+""" Problem 1 - Predict the output (1.4.16) """
+""" Problem 2 - Predict another output (1.4.17) """
+""" Problem 3 - What will this print (1.4.18) """
+""" Problem 4 - Without using arithmetic operator, swap 2 variables (1.4.19) """
+""" Problem 5 - Calculate age by taking user input as per current year. 2026 in this case [Junior Developer Interview Favorite] (1.4.20) """
