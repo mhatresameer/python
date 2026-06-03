@@ -32,3 +32,8 @@
 
 # Level 8: Mixed Data Type Interview Questions
 """ Predict output (2.1.19) """
+
+# Level 9: Junior Developer Interview Challenges
+""" Junior developer interview questions_student_record (2.1.20) """
+""" Junior developer interview questions_product_inventory (2.1.21) """
+""" Junior developer interview questions_unique_visitors (2.1.22) """
