@@ -8,10 +8,14 @@
 """ Problem 5: Convert an integer into string and float and print all 3 versions. (2.1.5) """
 
 # Level 3: String Data Type
-""" Find the length of: language = "Programming". Without counting manually (2.1.6) """
-""" Take users input and print it in uppercase, lowercase and titlecase (2.1.7) """
+""" Problem 6: Find the length of: language = "Programming". Without counting manually (2.1.6) """
+""" Problem 7: Take users input and print it in uppercase, lowercase and titlecase (2.1.7) """
 
 # Level 4: Lists
-""" Add a new value to the lists (2.1.8) """
-""" Remove a value from the lists (2.1.9) """
-""" Find first_element, last_element and length of the list provided (2.1.10) """
+""" Problem 8: Add a new value to the lists (2.1.8) """
+""" Problem 9: Remove a value from the lists (2.1.9) """
+""" Problem 10: Find first_element, last_element and length of the list provided (2.1.10) """
+
+# Level 5: Tuples
+""" Problem 11: What will happen if? (2.1.11) """
+""" Problem 12: When would you use a tuple instead of a list? Give 3 real-world examples. (2.1.12) """
