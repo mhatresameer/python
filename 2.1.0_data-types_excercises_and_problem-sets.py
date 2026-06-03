@@ -23,3 +23,7 @@
 # Level 6: Dictionaries
 """ Problem 13: Create a dictionary and print the age (2.1.13) """
 """ Problem 14: Add a new key in dictionary (2.1.14) """
+""" Problem 15: Checking value not present in dictionary (2.1.15) """
+""" Problem 16: Difference between key that doesnt exists in dictionary (2.1.16) """
+
+# Level 7: Sets
