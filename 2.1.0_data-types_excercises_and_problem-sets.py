@@ -31,3 +31,4 @@
 """ Problem 18: Find common elements (2.1.18) """
 
 # Level 8: Mixed Data Type Interview Questions
+""" Predict output (2.1.19) """
