@@ -37,3 +37,5 @@
 """ Junior developer interview questions_student_record (2.1.20) """
 """ Junior developer interview questions_product_inventory (2.1.21) """
 """ Junior developer interview questions_unique_visitors (2.1.22) """
+""" Junior developer interview questions_type_checker (2.1.23) """
+""" Junior developer interview questions_employee_database (2.1.24) """
