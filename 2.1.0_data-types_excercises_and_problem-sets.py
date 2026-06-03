@@ -27,3 +27,7 @@
 """ Problem 16: Difference between key that doesnt exists in dictionary (2.1.16) """
 
 # Level 7: Sets
+""" Problem 17: Predict output for a set (2.1.17) """
+""" Problem 18: Find common elements (2.1.18) """
+
+# Level 8: Mixed Data Type Interview Questions
