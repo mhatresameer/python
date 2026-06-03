@@ -19,3 +19,7 @@
 # Level 5: Tuples
 """ Problem 11: What will happen if? (2.1.11) """
 """ Problem 12: When would you use a tuple instead of a list? Give 3 real-world examples. (2.1.12) """
+
+# Level 6: Dictionaries
+""" Problem 13: Create a dictionary and print the age (2.1.13) """
+""" Problem 14: Add a new key in dictionary (2.1.14) """
