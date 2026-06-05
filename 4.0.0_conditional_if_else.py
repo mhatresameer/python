@@ -18,15 +18,7 @@
 
 # Level 3: Nested Conditions
 """ 4.0.11_conditional_statements_check_ATM_withdrawl_program.py """
-
-12. Login Validation
-Inputs:
-username
-password
-Rules:
-Username must not be empty
-Password must be at least 8 characters
-Only if both are valid, print Login accepted
+""" 4.0.12_conditional_statements_check_login_calidation.py """
 
 13. Scholarship Eligibility
 Inputs:
