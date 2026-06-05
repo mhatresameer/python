@@ -3,8 +3,8 @@
 """
 
 # Level 1: Basic if / else
-""" User input to check even or odd (4.0.1) """
-""" User input to check positive, negative, zero (4.0.2) """
+""" user input to check even or odd (4.0.1) """
+""" user input to check positive, negative, zero (4.0.2) """
 """ 4.0.3_conditional_statements_check_age_eligibility_to_vote.py """
 """ 4.0.4_conditional_statements_check_largest_of_2_numbers.py """
 """ 4.0.5_conditional_statements_check_pass_or_fail.py """
