@@ -1,70 +1,20 @@
+""" Conditional Explanation (4.1.0) """
+
 """
+
 # Level 1: Basic if / else
-
-1. Even or Odd
-Take an integer as input.
-Print Even if the number is divisible by 2, otherwise print Odd.
-
-2. Positive, Negative, or Zero
-Take a number as input and print exactly one of:
-Positive
-Negative
-Zero
-
-3. Voting Eligibility
-Take age as input.
-Print Eligible if age is at least 18, otherwise Not Eligible.
-
-4. Largest of Two Numbers
-Take two numbers and print the larger one.
-Also handle the case where they are equal.
-
-5. Pass or Fail
-Take marks (0–100).
-Print Pass if marks are at least 40, otherwise Fail.
+""" User input to check even or odd (4.0.1) """
+""" User input to check positive, negative, zero (4.0.2) """
+""" 4.0.3_conditional_statements_check_age_eligibility_to_vote.py """
+""" 4.0.4_conditional_statements_check_largest_of_2_numbers.py """
+""" 4.0.5_conditional_statements_check_pass_or_fail.py """
 
 # Level 2: if / elif / else Chains
-
-6. Grade Calculator
-Given marks:
-Range:Grade
-90–100:A
-75–89:B
-60–74:C
-40–59:D
-Below 40:F
-Print the appropriate grade.
-Bonus: print Invalid marks if input is outside 0–100.
-
-7. Month Name
-Input a number 1–12.
-Print the corresponding month name using if/elif/else (not a dictionary yet).
-
-8. Simple Calculator
-Input:
-first number
-operator (+, -, *, /)
-second number
-Use if/elif/else to perform the operation.
-Handle division by zero gracefully.
-
-9. Traffic Light
-Input color (red, yellow, green).
-Print:
-Color:Action
-red:Stop
-yellow:Wait
-green:Go
-anything else:Invalid signal
-
-10. Temperature Advice
-Input temperature in Celsius.
-Print:
-Condition:Output:
-< 0:Freezing
-0–15:Cold
-16–30:Comfortable
-> 30:Hot
+""" 4.0.6_conditional_statements_check_grade_and_print.py """
+""" 4.0.7_conditional_statements_check_numbers_and_print_month_name.py """
+""" 4.0.8_conditional_statements_simple_calculator.py """
+""" 4.0.9_conditional_statements_traffic_lights_check.py """
+""" 4.0.10_conditional_statements_check_temperature_advice.py """
 
 # Level 3: Nested Conditions
 
