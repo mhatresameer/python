@@ -17,17 +17,7 @@
 """ 4.0.10_conditional_statements_check_temperature_advice.py """
 
 # Level 3: Nested Conditions
-
-11. ATM Withdrawal
-Inputs:
-balance
-withdrawal amount
-PIN correct? (True/False)
-Rules:
-PIN must be correct
-Withdrawal must be positive
-Balance must be sufficient
-Print an appropriate message for each failure case.
+""" 4.0.11_conditional_statements_check_ATM_withdrawl_program.py """
 
 12. Login Validation
 Inputs:
