@@ -13,19 +13,6 @@ Balance must be sufficient
 Print an appropriate message for each failure case.
 """
 
-"""
-11. ATM Withdrawal
-Inputs:
-balance
-withdrawal amount
-PIN correct? (True/False)
-Rules:
-PIN must be correct
-Withdrawal must be positive
-Balance must be sufficient
-Print an appropriate message for each failure case.
-"""
-
 from getpass import getpass
 # library imported
 
