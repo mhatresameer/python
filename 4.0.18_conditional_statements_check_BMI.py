@@ -19,7 +19,13 @@ BMI:Category
 user_weight = float(input("Enter the weight in kilograms: "))
 user_height = float(input("Enter the height in metres: "))
 
-user_BMI = user_height/(user_weight**2)
-print(f"{user_BMI} is good.")
+user_BMI = user_weight / (user_height ** 2)
 
-# to be continued
+if user_BMI < 18.5:
+  print(f"You are underweight.")
+elif user_BMI >= 18.5 and user_BMI <= 24.9:
+  print(f"You are normal.")
+elif user_BMI > 24.9 and user_BMI <= 29.9:
+  print(f"You are overweight.")
+else:
+  print(f"You are obese.")
