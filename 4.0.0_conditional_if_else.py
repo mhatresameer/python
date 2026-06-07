@@ -25,6 +25,7 @@
 
 # Level 4: Classic Interview Problems
 """ 4.0.16_conditional_statements_check_if_leap_year_or_not.py """
+""" 4.0.17_conditional_statements_check_if_the_number_is_1-2-3-4_digit.py """
 
 17. FizzBuzz (Conditionals Focus)
 For numbers 1–30:
@@ -34,27 +35,7 @@ divisible by both → FizzBuzz
 otherwise print the number
 Key interview question: Why must the “both” condition come first?
 
-18. Number of Digits
-Input an integer and print whether it has:
-1 digit
-2 digits
-3 digits
-4+ digits
-Do this using conditionals (no loops or strings yet).
-
-19. BMI Category
-Inputs: weight (kg), height (m).
-Compute BMI:
-BMI=
-height
-2
-weight
-Classify:
-BMI:Category
-< 18.5:Underweight
-18.5–24.9:Normal
-25–29.9:Overweight
-≥ 30:Obese
+""" 4.0.18_conditional_statements_check_BMI.py """
 
 20. Shipping Cost Calculator
 Inputs:
@@ -67,23 +48,6 @@ Base charge = ₹50
 + ₹2 per km if distance > 100 km
 + ₹100 if express
 Print total shipping cost.
-
-# Level 5: Output-Prediction Questions (Very Common in Interviews)
-
-21. Predict the output
-What prints and why?
-
-22. Predict the output
-What prints and why?
-
-23. Predict the output
-What prints and why?
-
-24. Predict the output
-What prints and why?
-
-25. Predict the output
-How many lines print? Why?
 
 # Level 6: Edge Cases Interviewers Love
 
