@@ -19,47 +19,12 @@
 # Level 3: Nested Conditions
 """ 4.0.11_conditional_statements_check_ATM_withdrawl_program.py """
 """ 4.0.12_conditional_statements_check_login_calidation.py """
-
-13. Scholarship Eligibility
-Inputs:
-marks
-family income
-Eligible if:
-marks ≥ 85
-income ≤ 300000
-Print Scholarship Eligible or Not Eligible.
-
-14. Triangle Validity + Type
-Input three side lengths.
-First check if a triangle is valid.
-If valid, classify as:
-Equilateral
-Isosceles
-Scalene
-Use nested conditions.
-
-15. Discount Rules
-Inputs:
-cart total
-premium member? (True/False)
-Rules:
-Premium + total ≥ 5000 → 20% discount
-Premium + total < 5000 → 10% discount
-Non-premium + total ≥ 5000 → 5% discount
-Otherwise → no discount
-Print the discount percentage.
+""" 4.0.13_conditional_statements_check_scholarship_eligibility.py """
+""" 4.0.14_conditional_statements_check_triangle_validty_plus_type.py """
+""" 4.0.15_conditional_statements_check_discount_rules.py """
 
 # Level 4: Classic Interview Problems
-
-16. Leap Year Checker
-A year is a leap year if:
-divisible by 400
-or divisible by 4 but not by 100
-Examples:
-Year:Result
-2024:Leap Year
-1900:Not a Leap Year
-2000:Leap Year
+""" 4.0.16_conditional_statements_check_if_leap_year_or_not.py """
 
 17. FizzBuzz (Conditionals Focus)
 For numbers 1–30:
