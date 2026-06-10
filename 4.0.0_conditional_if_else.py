@@ -1,7 +1,5 @@
 """ Conditional Explanation (4.1.0) """
 
-"""
-
 # Level 1: Basic if / else
 """ user input to check even or odd (4.0.1) """
 """ user input to check positive, negative, zero (4.0.2) """
@@ -37,6 +35,9 @@ Key interview question: Why must the “both” condition come first?
 
 """ 4.0.18_conditional_statements_check_BMI.py """
 """ 4.0.19_conditional_statements_check_shipping_cost_calculator.py """
+""" 4.0.20_conditional_statements_check_even_or_odd.py """
+""" 4.0.21_conditional_statements_check_positive_negative_or_zero.py """
+""" 4.0.22_conditional_statements_check_largest_of_2_numbers.py """
 
 20. Shipping Cost Calculator
 Inputs:
