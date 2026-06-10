@@ -24,6 +24,11 @@
 # Level 4: Classic Interview Problems
 """ 4.0.16_conditional_statements_check_if_leap_year_or_not.py """
 """ 4.0.17_conditional_statements_check_if_the_number_is_1_2_3_4_digit.py """
+""" 4.0.18_conditional_statements_check_BMI.py """
+""" 4.0.19_conditional_statements_check_shipping_cost_calculator.py """
+""" 4.0.20_conditional_statements_check_even_or_odd.py """
+""" 4.0.21_conditional_statements_check_positive_negative_or_zero.py """
+""" 4.0.22_conditional_statements_check_largest_of_2_numbers.py """
 
 17. FizzBuzz (Conditionals Focus)
 For numbers 1–30:
@@ -32,12 +37,6 @@ divisible by 5 → Buzz
 divisible by both → FizzBuzz
 otherwise print the number
 Key interview question: Why must the “both” condition come first?
-
-""" 4.0.18_conditional_statements_check_BMI.py """
-""" 4.0.19_conditional_statements_check_shipping_cost_calculator.py """
-""" 4.0.20_conditional_statements_check_even_or_odd.py """
-""" 4.0.21_conditional_statements_check_positive_negative_or_zero.py """
-""" 4.0.22_conditional_statements_check_largest_of_2_numbers.py """
 
 20. Shipping Cost Calculator
 Inputs:
