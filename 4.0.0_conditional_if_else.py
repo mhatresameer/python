@@ -29,6 +29,11 @@
 """ 4.0.20_conditional_statements_check_even_or_odd.py """
 """ 4.0.21_conditional_statements_check_positive_negative_or_zero.py """
 """ 4.0.22_conditional_statements_check_largest_of_2_numbers.py """
+""" 4.0.23_conditional_statements_check_voting_eligibility.py """
+""" 4.0.24_conditional_statements_check_marks_pass_or_fail.py """
+""" 4.0.25_conditional_statements_check_if_number_divisible_by_5.py """
+""" 4.0.26_conditional_statements_check_leap_year_or_not.py """
+
 
 17. FizzBuzz (Conditionals Focus)
 For numbers 1–30:
