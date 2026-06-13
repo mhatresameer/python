@@ -33,6 +33,10 @@
 """ 4.0.24_conditional_statements_check_marks_pass_or_fail.py """
 """ 4.0.25_conditional_statements_check_if_number_divisible_by_5.py """
 """ 4.0.26_conditional_statements_check_leap_year_or_not.py """
+""" 4.0.27_conditional_statements_check_month_number.py """
+""" 4.0.28_conditional_statements_dicount_calculator.py """
+""" 4.0.29_conditional_statements_login_validation.py """
+""" 4.0.30_conditional_statements_check_triangle_and_sides.py """
 
 
 17. FizzBuzz (Conditionals Focus)
