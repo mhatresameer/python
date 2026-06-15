@@ -40,6 +40,8 @@
 """ 4.0.31_conditional_statements_check_triangle_and_sides.py """
 """ 4.0.32_conditional_statements_check_employee_bonus.py """
 """ 4.0.39_condition_statement_ATM_withdrawl.py """
+""" 4.0.40_conditional_statement_bank_account_registration.py """
+""" 4.0.41_conditional_statement_rock_paper_scissors.py """
 
 17. FizzBuzz (Conditionals Focus)
 For numbers 1–30:
