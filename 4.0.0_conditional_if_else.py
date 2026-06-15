@@ -42,6 +42,12 @@
 """ 4.0.39_condition_statement_ATM_withdrawl.py """
 """ 4.0.40_conditional_statement_bank_account_registration.py """
 """ 4.0.41_conditional_statement_rock_paper_scissors.py """
+""" 4.0.42_conditional_statement_income_tax_calculator.py """
+""" 4.0.43_conditional_statement_quadrant_checker.py """
+""" 4.0.44_conditional_statement_loan_eligibility_checker.py """
+""" 4.0.45_conditional_statement_student_scholarship_system.py """
+""" 4.0.46_conditional_statement_student_shipping_cost_calculator.py """
+""" 4.0.47_conditional_statement_fizzbuzz_program.py """
 
 17. FizzBuzz (Conditionals Focus)
 For numbers 1–30:
