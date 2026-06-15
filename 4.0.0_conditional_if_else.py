@@ -46,28 +46,11 @@
 """ 4.0.43_conditional_statement_quadrant_checker.py """
 """ 4.0.44_conditional_statement_loan_eligibility_checker.py """
 """ 4.0.45_conditional_statement_student_scholarship_system.py """
-""" 4.0.46_conditional_statement_student_shipping_cost_calculator.py """
+""" 4.0.46_conditional_statement_shipping_cost_calculator.py """
 """ 4.0.47_conditional_statement_fizzbuzz_program.py """
-
-17. FizzBuzz (Conditionals Focus)
-For numbers 1–30:
-divisible by 3 → Fizz
-divisible by 5 → Buzz
-divisible by both → FizzBuzz
-otherwise print the number
-Key interview question: Why must the “both” condition come first?
-
-20. Shipping Cost Calculator
-Inputs:
-weight in kg
-distance in km
-express shipping? (True/False)
-Example rules:
-Base charge = ₹50
-+ ₹10 per kg
-+ ₹2 per km if distance > 100 km
-+ ₹100 if express
-Print total shipping cost.
+""" 4.0.48_conditional_statement_online_shopping_checkout_system.py """
+""" 4.0.49_conditional_statement_movie_ticket_booking_with_age_restrictions.py """
+""" 4.0.50_conditional_statement_parking_fee_calculator.py """
 
 # Level 6: Edge Cases Interviewers Love
 
