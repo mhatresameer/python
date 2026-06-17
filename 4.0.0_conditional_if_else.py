@@ -43,7 +43,6 @@
 """ 4.0.40_conditional_statement_bank_account_registration.py """
 """ 4.0.41_conditional_statement_rock_paper_scissors.py """
 """ 4.0.42_conditional_statement_income_tax_calculator.py """
-""" 4.0.43_conditional_statement_quadrant_checker.py """
 """ 4.0.44_conditional_statement_loan_eligibility_checker.py """
 """ 4.0.45_conditional_statement_student_scholarship_system.py """
 """ 4.0.46_conditional_statement_shipping_cost_calculator.py """
@@ -51,6 +50,9 @@
 """ 4.0.48_conditional_statement_online_shopping_checkout_system.py """
 """ 4.0.49_conditional_statement_movie_ticket_booking_with_age_restrictions.py """
 """ 4.0.50_conditional_statement_parking_fee_calculator.py """
+""" 4.0.51_conditional_statement_hotel_room_booking_price_calculator.py """
+""" 4.0.52_conditional_statement_train_ticket_fare_ by_age_category.py """
+""" 4.0.53_conditional_statement_quadrant_checker.py """
 
 # Level 6: Edge Cases Interviewers Love
 
