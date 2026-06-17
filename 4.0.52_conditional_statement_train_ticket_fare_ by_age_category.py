@@ -13,7 +13,7 @@ Train Ticket Fare by Age Category :
           Full fare
       - Senior Citizen (60 years and above)
           30% discount on the standard fare
-  3. First Class and Second Class fares
+  3. First Class and Second Class fares (done)
   
   Advanced
     4. AC and Non-AC coaches
