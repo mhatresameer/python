@@ -26,6 +26,9 @@ Train Ticket Fare by Age Category :
 
 print("Python Express welcomes you aboard. \n")
 
+print("Panvel - Thane")
+print("Thane - Panvel \n")
+
 print("Python Express offers below discounts and offers:")
 print("For infants aging between 0 to 4, we have a zero fare.")
 print("For children aging between 5 to 12, we have a 50% discount on the actual fare.")
@@ -39,6 +42,7 @@ print("SECOND CLASS FARE : ₹650\n")
 passenger_name = input("Passengers name: ")
 passenger_age = int(input("Passengers age: "))
 passenger_class = input("Passengers class: ").upper()
+are_you_a_student = input("Are you a student? (Yes / No): ").upper()
 
 print(f"Thank you for choosing Python Express, {passenger_name}. \n")
 
@@ -46,7 +50,6 @@ if passenger_age < 0:
     print("Invalid Age detected. Please chose the right age.")
 
 elif passenger_age >= 60:
-
     if passenger_class == "STANDARD":
         discount_30 = 500 * 0.30
         total_amount = 500 - discount_30
@@ -76,29 +79,67 @@ elif passenger_age >= 60:
 
 elif passenger_age >= 13:
 
-    if passenger_class == "STANDARD":
-        total_amount = 500
-        print(f"Passengers Name: {passenger_name}")
-        print(f"Passengers Age: {passenger_age}")
-        print(f"Passengers Class: {passenger_class}")
-        print(f"Total cost: {total_amount:.2f}")
+    if are_you_a_student == "YES":
 
-    elif passenger_class == "FIRST":
-        total_amount = 1200
-        print(f"Passengers Name: {passenger_name}")
-        print(f"Passengers Age: {passenger_age}")
-        print(f"Passengers Class: {passenger_class}")
-        print(f"Total cost: {total_amount:.2f}")
+        if passenger_class == "STANDARD":
+            total_amount = 500
+            print(f"Passengers Name: {passenger_name}")
+            print(f"Passengers Age: {passenger_age}")
+            print(f"Passengers Class: {passenger_class}")
+            print(f"Student ticket for a STANDARD class avails 3% discount.")
+            discount_3 = total_amount * 0.03
+            total_amount = total_amount - discount_3
+            print(f"Total cost: {total_amount:.2f}")
 
-    elif passenger_class == "SECOND":
-        total_amount = 650
-        print(f"Passengers Name: {passenger_name}")
-        print(f"Passengers Age: {passenger_age}")
-        print(f"Passengers Class: {passenger_class}")
-        print(f"Total cost: {total_amount:.2f}")
+        elif passenger_class == "FIRST":
+            total_amount = 1200
+            print(f"Passengers Name: {passenger_name}")
+            print(f"Passengers Age: {passenger_age}")
+            print(f"Passengers Class: {passenger_class}")
+            print(f"Student ticket for a FIRST class avails 15% discount.")
+            discount_15 = total_amount * 0.15
+            total_amount = total_amount - discount_15
+            print(f"Total cost: {total_amount:.2f}")
+
+        elif passenger_class == "SECOND":
+            total_amount = 650
+            print(f"Passengers Name: {passenger_name}")
+            print(f"Passengers Age: {passenger_age}")
+            print(f"Passengers Class: {passenger_class}")
+            print(f"Student ticket for a SECOND class avails 8% discount.")
+            discount_8 = total_amount * 0.08
+            total_amount = total_amount - discount_8
+            print(f"Total cost: {total_amount:.2f}")
+
+        else:
+            print("Invalid class. \nChoose between FIRST, SECOND or STANDARD.")
 
     else:
-        print("Invalid class. \nChoose between FIRST, SECOND or STANDARD.")
+        print("No STUDENT discount applied.\n")
+
+        if passenger_class == "STANDARD":
+            total_amount = 500
+            print(f"Passengers Name: {passenger_name}")
+            print(f"Passengers Age: {passenger_age}")
+            print(f"Passengers Class: {passenger_class}")
+            print(f"Total cost: {total_amount:.2f}")
+
+        elif passenger_class == "FIRST":
+            total_amount = 1200
+            print(f"Passengers Name: {passenger_name}")
+            print(f"Passengers Age: {passenger_age}")
+            print(f"Passengers Class: {passenger_class}")
+            print(f"Total cost: {total_amount:.2f}")
+
+        elif passenger_class == "SECOND":
+            total_amount = 650
+            print(f"Passengers Name: {passenger_name}")
+            print(f"Passengers Age: {passenger_age}")
+            print(f"Passengers Class: {passenger_class}")
+            print(f"Total cost: {total_amount:.2f}")
+
+        else:
+            print("Invalid class. \nChoose between FIRST, SECOND or STANDARD.")
 
 elif passenger_age >= 5:
 
