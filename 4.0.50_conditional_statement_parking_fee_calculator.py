@@ -1,42 +1,18 @@
 """
 Parking Fee Calculator
-
-Start
-│
-├─ Enter Vehicle Number
-├─ Enter Hours Parked
-│
-├─ Hours ≤ 2?
-│      └─ Yes → Rate = ₹20/hour
-│
-├─ Else Hours ≤ 5?
-│      └─ Yes → Rate = ₹15/hour
-│
-├─ Else
-│      └─ Rate = ₹10/hour
-│
-├─ Calculate Fee
-│
-├─ Hours > 10?
-│      └─ Yes → Add ₹50 surcharge
-│
-└─ Display Total Fee
-End
 ---------------------------------------------------
 features implemented : done
 Different rates for Cars, Bikes, and Trucks
 Weekend parking charges
 GST calculation
 Lost ticket penalty
+Night parking discount
 ---------------------------------------------------
 additional features:
-Night parking discount
 Monthly parking passes
 VIP parking membership discounts
 Receipt number generation
 """
-
-# Night parking discount
 
 print("We welcome you to Python Parking System. \n")
 print("Parking charges are as follows- ")
@@ -48,10 +24,7 @@ print("Bike charges - ₹10.")
 print("Car charges - ₹20.")
 print("Truck charges - ₹50.")
 print("GST = 18% \n")
-print("Night Parking Discount:")
-print("Bike - 5%")
-print("Car - 7%")
-print("Truck - 10% \n")
+print("Night Parking Discount: ₹25\n")
 print("Lost Ticket Penalty - ₹100\n")
 
 vehicle_number = input("Enter your vehicle number: ")
@@ -76,7 +49,7 @@ if vehicle_type in ["BIKE", "CAR", "TRUCK"]:
     elif parking_on_weekends == "NO":
         weekend_charges = 0
     else:
-        print("Invalid input. Choose YES or NO.")
+        print("Invalid input. Choose YES or NO.\n")
         weekend_charges = 0
 
     if penalty_ticket == "YES":
@@ -84,14 +57,16 @@ if vehicle_type in ["BIKE", "CAR", "TRUCK"]:
     elif penalty_ticket == "NO":
         ticket_available = 100
     else:
+        print("Invalid input. Choose YES or NO.\n")
         ticket_available = 0
 
     if night_parking == "YES":
-        night_availability = 25
-    elif penalty_ticket == "NO":
-        night_availability = 0
+        discount_night_parking = 25
+    elif night_parking == "NO":
+        discount_night_parking = 0
     else:
-        night_availability = 0
+        print("Invalid input. Choose YES or NO.\n")
+        discount_night_parking = 0
 
     if len(vehicle_number) == 10 and vehicle_number.isalnum():
 
@@ -105,12 +80,12 @@ if vehicle_type in ["BIKE", "CAR", "TRUCK"]:
 
             print(f"Parking charges: ₹{add_20}")
             print(f"Vehicle charges: ₹{vehicle_charges}")
-            print(f"Weekend charges: ₹{weekend_charges}")
+            print(f"Weekend parking charges: ₹{weekend_charges}")
+            print(f"Penalty amount: ₹{ticket_available}")
+            print(f"Discount on night parking: ₹{discount_night_parking}")
             gst_18 = (receipt_amount * 18) / 100
             print(f"GST (18%): ₹{gst_18:.2f}")
-            print(f"Penalty amount: ₹{ticket_available}")
-            print(f"Night parking: ₹{night_availability}")
-            total_receipt_amount = receipt_amount + gst_18 + ticket_available + night_availability
+            total_receipt_amount = receipt_amount + gst_18 + ticket_available - discount_night_parking
             print(f"Total amount: ₹{total_receipt_amount}\n")
 
         elif 3 <= hours_parked <= 5:
@@ -120,12 +95,12 @@ if vehicle_type in ["BIKE", "CAR", "TRUCK"]:
 
             print(f"Parking charges: ₹{add_15}")
             print(f"Vehicle charges: ₹{vehicle_charges}")
-            print(f"Weekend charges: ₹{weekend_charges}")
+            print(f"Weekend parking charges: ₹{weekend_charges}")
+            print(f"Penalty amount: ₹{ticket_available}")
+            print(f"Discount on night parking: ₹{discount_night_parking}")
             gst_18 = (receipt_amount * 18) / 100
             print(f"GST (18%): ₹{gst_18:.2f}")
-            print(f"Penalty amount: ₹{ticket_available}")
-            print(f"Night parking: ₹{night_availability}")
-            total_receipt_amount = receipt_amount + gst_18 + ticket_available + night_availability
+            total_receipt_amount = receipt_amount + gst_18 + ticket_available - discount_night_parking
             print(f"Total amount: ₹{total_receipt_amount}\n")
 
         elif 6 <= hours_parked <= 10:
@@ -135,12 +110,12 @@ if vehicle_type in ["BIKE", "CAR", "TRUCK"]:
 
             print(f"Parking charges: ₹{add_10}")
             print(f"Vehicle charges: ₹{vehicle_charges}")
-            print(f"Weekend charges: ₹{weekend_charges}")
+            print(f"Weekend parking charges: ₹{weekend_charges}")
+            print(f"Penalty amount: ₹{ticket_available}")
+            print(f"Discount on night parking: ₹{discount_night_parking}")
             gst_18 = (receipt_amount * 18) / 100
             print(f"GST (18%): ₹{gst_18:.2f}")
-            print(f"Penalty amount: ₹{ticket_available}")
-            print(f"Night parking: ₹{night_availability}")
-            total_receipt_amount = receipt_amount + gst_18 + ticket_available + night_availability
+            total_receipt_amount = receipt_amount + gst_18 + ticket_available - discount_night_parking
             print(f"Total amount: ₹{total_receipt_amount}\n")
 
         else:
@@ -150,18 +125,18 @@ if vehicle_type in ["BIKE", "CAR", "TRUCK"]:
 
             print(f"Parking charges: ₹{surcharge_fee}")
             print(f"Vehicle charges: ₹{vehicle_charges}")
-            print(f"Weekend charges: ₹{weekend_charges}")
+            print(f"Weekend parking charges: ₹{weekend_charges}")
+            print(f"Penalty amount: ₹{ticket_available}")
+            print(f"Discount on night parking: ₹{discount_night_parking}")
             gst_18 = (receipt_amount * 18) / 100
             print(f"GST (18%): ₹{gst_18:.2f}")
-            print(f"Penalty amount: ₹{ticket_available}")
-            print(f"Night parking: ₹{night_availability}")
-            total_receipt_amount = receipt_amount + gst_18 + ticket_available + night_availability
+            total_receipt_amount = receipt_amount + gst_18 + ticket_available - discount_night_parking
             print(f"Total amount: ₹{total_receipt_amount}\n")
 
     else:
         print("The vehicle number is invalid. \n")
 
 else:
-    print("Invalid Vehicle type.")
+    print("Invalid Vehicle type.\n")
 
 print("Thank you again for using Python Parking System. Have a lovely day ahead.")
