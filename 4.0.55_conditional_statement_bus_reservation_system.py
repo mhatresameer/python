@@ -92,6 +92,7 @@ passengers_seat_selection = input("Seat to be selected - Window / Aisle or Middl
 passengers_seat_number = int(input("Choose your seat between (1-50): "))
 passengers_distance_travelled = float(input("Travel Distance: "))
 passengers_travel_day = input("Travel Day: ").upper()
+passengers_festival_surcharge = input("Are you travelling on any festival? (Yes / No): ").upper()
 passengers_round_trip_allowed = input("Round Trip - (Yes / No): ").upper()
 print(f"Welcome, {passengers_name} to Bus Reservation System.\n")
 
@@ -151,16 +152,18 @@ else:
     exit()
 # passengers seat selection - end
 
-# passengers seat number - start
-# if 1 <= passengers_seat_number <= 40:
-#     print(f"{passengers_seat_number} seats booked successfully.")
-# else:
-#     print("Invalid seat number selection.")
-#     exit()
-# passengers seat number - end
+# passengers festival surcharge - start
+if passengers_festival_surcharge == "YES":
+    festival_surcharge = 50
+elif passengers_festival_surcharge == "NO":
+    festival_surcharge = 0
+else:
+    print("Invalid Selection.")
+    exit()
+# passengers festival surcharge - end
 
 # booked seats - start
-booked_seats = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+booked_seats = [5, 15, 30, 50]
 
 if passengers_seat_number in booked_seats:
     print("Seat is already booked.")
@@ -170,6 +173,7 @@ elif 1 <= passengers_seat_number <= 50:
     print(f"Seat {passengers_seat_number} booked successfully.")
 else:
     print("Invalid Seat Selection.")
+    exit()
 # booked seats - end
 
 # passengers round trip allowed - start
@@ -199,19 +203,19 @@ elif passengers_age < 5:
 
 elif 5 <= passengers_age <= 12:
     final_bill =  total_distance_bill * 0.5
-    bus_fare = (final_bill * round_trip) + passengers_weekend_surcharge
+    bus_fare = (final_bill * round_trip) + passengers_weekend_surcharge + festival_surcharge
     print(f"You are eligible for a 50% discount on your ticket. Final Bill: {bus_fare:.2f}")
     print("Have a safe journey.")
 
 elif 13 <= passengers_age <= 59:
     final_bill = total_distance_bill
-    bus_fare = (final_bill * round_trip) + passengers_weekend_surcharge
+    bus_fare = (final_bill * round_trip) + passengers_weekend_surcharge + festival_surcharge
     print(f"Full fare applicable. Final Bill: {bus_fare:.2f}")
     print("Have a safe journey.")
 
 else:
     final_bill = total_distance_bill * 0.75
-    bus_fare = (final_bill * round_trip) + passengers_weekend_surcharge
+    bus_fare = (final_bill * round_trip) + passengers_weekend_surcharge + festival_surcharge
     print(f"You are eligible for a 25% discount on your full fare. Final Bill: {bus_fare:.2f}")
     print("Have a safe journey.")
 # passengers age choices - end
@@ -227,6 +231,7 @@ print(f"Seat numbers selected: {passengers_seat_number}")
 print(f"Updated booked seats: {booked_seats}")
 print(f"Distance travelled: {passengers_distance_travelled:.2f} km")
 print(f"Travel day: {passengers_travel_day}")
+print(f"Festival surcharge applied: {passengers_festival_surcharge}")
 print(f"Round trip selected: {passengers_round_trip_allowed}")
 print(f"Final bill to pay: ₹{bus_fare:.2f}")
 # passengers reservation summary - end
