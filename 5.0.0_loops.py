@@ -91,3 +91,5 @@ That project will combine everything you've learned so far and introduce loops n
 """ 5.0.2_loops_print_even_numbers_2_to_20.py """
 """ 5.0.3_loops_print_numbers_10_to_1.py """
 """ 5.0.4_loops_print_odd_numbers_1_to_20.py """
+""" 5.0.5_loops_print_all_multiples_of_3_from_1_to_30.py """
+""" 5.0.6_loops_print_your_name_10_times.py """
