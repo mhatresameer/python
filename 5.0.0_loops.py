@@ -93,3 +93,5 @@ That project will combine everything you've learned so far and introduce loops n
 """ 5.0.4_loops_print_odd_numbers_1_to_20.py """
 """ 5.0.5_loops_print_all_multiples_of_3_from_1_to_30.py """
 """ 5.0.6_loops_print_your_name_10_times.py """
+""" 5.0.7_loops_user_input_for_number_and_print_table.py """
+""" 5.0.8_loops_find_sum_of_numbers_from_1_to_100.py """
