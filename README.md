@@ -2,3 +2,4 @@
 2.0 - Python Data-Types and problems with examples and solutions.</br>
 3.0 - Python Operators and problems with examples and solutions.</br>
 4.0 - Python Conditional Statememts and problems with examples and solutions.</br>
+5.0 - Python Loops and problems with examples and solutions.</br>
