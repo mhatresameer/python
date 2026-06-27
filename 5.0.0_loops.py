@@ -87,6 +87,19 @@ Since you like project-based learning, I suggest starting with:
 
 That project will combine everything you've learned so far and introduce loops naturally.
 
+Print numbers 1 to 10.
+Print even numbers from 1 to 100.
+Print odd numbers from 1 to 100.
+Find the sum of first n numbers.
+Find factorial of a number.
+Reverse a number.
+Check palindrome number.
+Count digits in a number.
+Check Armstrong number.
+Check prime number.
+Multiplication tables.
+Pattern printing using nested loops.
+
 """ 5.0.1_loops_print_1_to_10.py """
 """ 5.0.2_loops_print_even_numbers_2_to_20.py """
 """ 5.0.3_loops_print_numbers_10_to_1.py """
