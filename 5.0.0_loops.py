@@ -111,3 +111,4 @@ Pattern printing using nested loops.
 """ 5.0.9_loops_reverse_a_number.py """
 """ 5.0.10_loops_check_if_number_is_palindrome_or_not.py """
 """ 5.0.11_loops_check_if_number_is_prime_or_not.py """
+""" 5.0.12_loops_check_if_number_is_armstrong_or_not.py """
