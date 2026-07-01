@@ -113,3 +113,4 @@ Pattern printing using nested loops.
 """ 5.0.11_loops_check_if_number_is_prime_or_not.py """
 """ 5.0.12_loops_check_if_number_is_armstrong_or_not.py """
 """ 5.0.13_loops_multiplication_table.py """
+""" 5.0.14_loops_print_1_to_10_using_for_loop.py """
