@@ -116,6 +116,7 @@ Pattern printing using nested loops.
 """ 5.0.14_loops_print_1_to_10_using_for_loop.py """
 """ 5.0.15_loops_print_each_character_of_a_string.py """
 """ 5.0.16_loops_print_numbers_from_N_to_1.py """
+""" 5.0.17_print_only_even_numbers_from_N_to_1.py """
 
 
 🟢 Level 1 – Absolute Basics (Understand Loop Flow)
