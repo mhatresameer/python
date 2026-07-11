@@ -119,6 +119,7 @@ Pattern printing using nested loops.
 """ 5.0.17_print_only_even_numbers_from_N_to_1.py """
 """ 5.0.18_print_squares_from_1_to_20.py """
 """ 5.0.19_print_cubes_from_1_to_10.py """
+""" 5.0.20_print_the_first_N_natural_numbers.py """
 
 
 🟢 Level 1 – Absolute Basics (Understand Loop Flow)
