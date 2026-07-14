@@ -122,6 +122,7 @@ Pattern printing using nested loops.
 """ 5.0.20_print_the_first_N_natural_numbers.py """
 """ 5.0.21_find_the_sum_of_numbers_from_1_to_N.py """
 """ 5.0.22_find_the_sum_of_even_numbers.py """
+""" 5.0.23_find_the_sum_of_odd_numbers.py """
 
 🟢 Level 1 – Absolute Basics (Understand Loop Flow)
 1. Print numbers from 1 to 10
