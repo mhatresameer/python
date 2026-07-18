@@ -126,6 +126,7 @@ Pattern printing using nested loops.
 """ 5.0.24_count_digits_in_a_number.py """
 """ 5.0.25_print_the_alphabet_A_to_Z.py """
 """ 5.0.26_print_fibonacci_series.py """
+""" 5.0.27_print_perfect_number.py """
 
 🟢 Level 1 – Absolute Basics (Understand Loop Flow)
 1. Print numbers from 1 to 10
